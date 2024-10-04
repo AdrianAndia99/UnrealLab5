@@ -28,4 +28,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Example5.1")
 	float MyAttribute;
 
+	UFUNCTION(BlueprintCallable, Category = "Example5.1")
+
+	float SumTwoNumbers(float A, float B);
 };

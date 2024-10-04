@@ -22,3 +22,8 @@ void AUnrealLab5::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
 }
+
+float AUnrealLab5::SumTwoNumbers(float A, float B)
+{
+    return A + B;
+}
